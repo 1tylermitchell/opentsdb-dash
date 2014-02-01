@@ -1,3 +1,4 @@
+/*
 (function () {
 
 // $.when($.ajax( "/page1.php" ), 
@@ -110,3 +111,4 @@
     $document.ready(onDocumentReady);
 
 })();
+*/

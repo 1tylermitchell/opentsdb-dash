@@ -23,6 +23,8 @@
   "dependencies": {
     "flot": "~0.8.2",
     "polymer": "Polymer/polymer#~0.1.4",
-    "moment": "~2.5.1"
+    "moment": "~2.5.1",
+    "polymer-ajax": "Polymer/polymer-ajax#~0.1.4",
+    "polymer-ui-elements": "Polymer/polymer-ui-elements#~0.1.4"
   }
 }

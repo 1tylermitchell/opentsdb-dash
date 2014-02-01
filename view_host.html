@@ -1,24 +1,30 @@
 <html>
-<head>
-<script language="javascript" type="text/javascript" src="bower_components/jquery/jquery.min.js"></script>
-<script language="javascript" type="text/javascript" src="bower_components/flot/jquery.flot.js"></script>
-<script language="javascript" type="text/javascript" src="bower_components/flot/jquery.flot.crosshair.js"></script>
-<script language="javascript" type="text/javascript" src="bower_components/flot/jquery.flot.stack.js"></script>
-<script language="javascript" type="text/javascript" src="bower_components/flot/jquery.flot.time.js"></script>
-<script language="javascript" type="text/javascript" src="bower_components/moment/moment.js"></script>
-<script language="javascript" type="text/javascript" src="lib/jquery.flot.axislabels.js"></script>
-<script language="javascript" type="text/javascript" src="lib/jquery-queryParser.min.js"></script>
-<script language="javascript" type="text/javascript" src="lib/jquery.simple-dtpicker.js"></script>
-<link type="text/css" href="lib/jquery.simple-dtpicker.css" rel="stylesheet" />
-<script language="javascript" type="text/javascript" src="tsdplot.js"></script>
-<script language="javascript" type="text/javascript" src="view_host.js"></script>
-<link type="text/css" href="view_host.css" rel="stylesheet" />
-</head>
-<body>
+  <head>
+    <script src="bower_components/platform/platform.js"></script>
+    <script language="javascript" type="text/javascript" src="bower_components/jquery/jquery.min.js"></script>
+    <script language="javascript" type="text/javascript" src="index.js"></script>
+    <script language="javascript" type="text/javascript" src="bower_components/jquery/jquery.min.js"></script>
+    <script language="javascript" type="text/javascript" src="bower_components/flot/jquery.flot.js"></script>
+    <script language="javascript" type="text/javascript" src="bower_components/flot/jquery.flot.crosshair.js"></script>
+    <script language="javascript" type="text/javascript" src="bower_components/flot/jquery.flot.stack.js"></script>
+    <script language="javascript" type="text/javascript" src="bower_components/flot/jquery.flot.time.js"></script>
+    <script language="javascript" type="text/javascript" src="bower_components/moment/moment.js"></script>
+    <script language="javascript" type="text/javascript" src="lib/jquery.flot.axislabels.js"></script>
+    <script language="javascript" type="text/javascript" src="lib/jquery-queryParser.min.js"></script>
+    <script language="javascript" type="text/javascript" src="lib/jquery.simple-dtpicker.js"></script>
+    <link type="text/css" href="lib/jquery.simple-dtpicker.css" rel="stylesheet" />
+    <script language="javascript" type="text/javascript" src="tsdplot.js"></script>
+    <!--
+    <script language="javascript" type="text/javascript" src="view_host.js"></script>
+    -->
+    <link type="text/css" href="view_host.css" rel="stylesheet" />
+    <link rel="import" href="elements/dash-dtpicker.html">
+    <link rel="import" href="elements/dash-dtrange.html">
+  </head>
+  <body>
 
+  <dash-dtrange></dash-dtrange>
 
-Start: <input id="start_date" type="text" name="start_date"  /> End: <input id="end_date" type="text" name="end_date"  />
-
-<div id="container"></div>
-</body>
+  <div id="container"></div>
+  </body>
 </html>
